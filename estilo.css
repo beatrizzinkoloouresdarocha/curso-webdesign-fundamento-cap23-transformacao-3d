@@ -49,3 +49,26 @@ main {
     width: 100%;
     backface-visibility: hidden;
 }
+
+.card-front {
+    transform: rotateY(180deg);
+}
+
+main:has(#check1:checked) .game .card1,
+main:has(#check2:checked) .game .card2,
+main:has(#check3:checked) .game .card3,
+main:has(#check4:checked) .game .card4,
+main:has(#check5:checked) .game .card5,
+main:has(#check6:checked) .game .card6,
+main:has(#check7:checked) .game .card7,
+main:has(#check8:checked) .game .card8,
+main:has(#check9:checked) .game .card9,
+main:has(#check10:checked) .game .card10,
+main:has(#check11:checked) .game .card11,
+main:has(#check12:checked) .game .card12,
+main:has(#check13:checked) .game .card13,
+main:has(#check14:checked) .game .card14,
+main:has(#check15:checked) .game .card15,
+main:has(#check16:checked) .game .card16 {
+    transform: rotateY(180deg);
+}
